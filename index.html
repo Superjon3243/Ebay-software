@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ebay Pricing Software</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Ebay Pricing Software</h2>
+        <form action="/calculate_price" method="post">
+            <div class="form-group">
+                <label for="priceHistory">Price History:</label>
+                <input type="number" class="form-control" name="price_history" placeholder="Enter price history" required>
+            </div>
+
+            <div class="form-group">
+                <label for="competitorPrice">Competitor Price:</label>
+                <input type="number" class="form-control" name="competitor_price" placeholder="Enter competitor price" required>
+            </div>
+
+            <div class="form-group">
+                <label for="maxIncreasePercent">Max Increase Percent:</label>
+                <input type="number" class="form-control" name="max_increase_percent" placeholder="Enter max increase percent" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Calculate Pricing</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
